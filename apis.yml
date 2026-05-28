@@ -1,0 +1,32 @@
+aid: geonames
+name: GeoNames
+description: "Place names and other geographical data"
+url: http://www.geonames.org/export/web-services.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: GeoNames
+    description: "Place names and other geographical data"
+    humanURL: http://www.geonames.org/export/web-services.html
+    baseURL: http://www.geonames.org/export/web-services.html
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: http://www.geonames.org/export/web-services.html
+common:
+  - type: Website
+    url: http://www.geonames.org/export/web-services.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
