@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: http://www.geonames.org/export/web-services.html
 common:
+  - type: DomainSecurity
+    url: security/geonames-domain-security.yml
   - type: Website
     url: http://www.geonames.org/export/web-services.html
   - type: PublicAPIsListing
