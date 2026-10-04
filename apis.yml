@@ -39,7 +39,6 @@ apis:
   - name: GeoNames
     description: "Place names and other geographical data"
     humanURL: http://www.geonames.org/export/web-services.html
-    baseURL: http://www.geonames.org/export/web-services.html
     tags:
       - Geocoding
     properties:
